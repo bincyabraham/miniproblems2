@@ -5,7 +5,7 @@ void main()
     printf("Enter a number:");
     scanf("%d",&n);
     printf("\nEven numbers from 1 to %d",n);
-    for(i=1;i<=n;i=i+2)
+    for(i=2;i<=n;i=i+2)
     {
         printf("\n%d",i);
     }
